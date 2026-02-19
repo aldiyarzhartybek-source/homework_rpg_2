@@ -441,11 +441,6 @@ This is an individual assignment. You may:
 - Discuss concepts with classmates
 - Ask instructor for clarification
 
-You may NOT:
-- Copy code from classmates
-- Share your implementation with others
-- Use AI to write the code for you
-
 **The struggle with design decisions IS the learning!**
 
 ---
