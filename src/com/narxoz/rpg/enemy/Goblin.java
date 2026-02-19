@@ -23,13 +23,10 @@ public class Goblin implements Enemy {
 
     public Goblin(String name) {
         this.name = name;
-
-
         this.health = 100;
         this.damage = 15;
         this.defense = 5;
         this.speed = 35;
-
         this.abilities = new ArrayList<>();
         this.lootTable = null;
     }
