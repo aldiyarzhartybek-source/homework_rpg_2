@@ -6,6 +6,5 @@ public interface LootTable {
     List<String> getItems();
     int getGoldDrop();
     int getExperienceDrop();
-
     LootTable clone();
 }
