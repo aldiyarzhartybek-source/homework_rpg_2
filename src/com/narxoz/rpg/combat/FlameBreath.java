@@ -13,7 +13,7 @@ public final class FlameBreath implements Ability {
     @Override public String getDescription() {
         return "AoE fire damage + burn effect.";
     }
-    
+
     @Override public Ability clone() {
         return new FlameBreath();
     }

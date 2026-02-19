@@ -5,5 +5,5 @@ public interface Ability {
     int getDamage();
     String getDescription();
 
-    Ability clone(); // Prototype support
+    Ability clone();
 }
