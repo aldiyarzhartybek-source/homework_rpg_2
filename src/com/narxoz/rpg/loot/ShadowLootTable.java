@@ -41,3 +41,4 @@ public final class ShadowLootTable implements LootTable {
         return new ShadowLootTable(items, goldDrop, experienceDrop);
     }
 }
+в
