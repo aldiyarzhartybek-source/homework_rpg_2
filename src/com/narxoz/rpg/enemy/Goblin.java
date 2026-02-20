@@ -22,11 +22,19 @@ public class Goblin implements Enemy {
     private LootTable lootTable;
 
     public Goblin(String name) {
+        this(name, 100, 15, 5, 35);
+    }
+
+    public Goblin(String name, int health, int damage, int defense, int speed) {
         this.name = name;
-        this.health = 100;
-        this.damage = 15;
-        this.defense = 5;
-        this.speed = 35;
+        this.health = health;
+        this.damage = damage;
+        this.defense = defense;
+        this.speed = speed;
+
+        this.element = "NONE";
+        this.aiBehavior = "BASIC";
+
         this.abilities = new ArrayList<>();
         this.lootTable = null;
     }
