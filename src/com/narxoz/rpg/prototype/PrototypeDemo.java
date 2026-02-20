@@ -40,7 +40,7 @@ public final class PrototypeDemo {
 
         Enemy championGoblin = registry.createFromTemplate("goblin");
         championGoblin.multiplyStats(5.0);
-        championGoblin.addAbility(new FlameBreath()); 
+        championGoblin.addAbility(new FlameBreath());
 
         Enemy goblinKing = registry.createFromTemplate("goblin");
         goblinKing.multiplyStats(10.0);
