@@ -75,7 +75,6 @@ public final class BasicEnemyBuilder implements EnemyBuilder {
 
     @Override
     public EnemyBuilder addPhase(int phaseNumber, int healthThreshold) {
-
         return this;
     }
 

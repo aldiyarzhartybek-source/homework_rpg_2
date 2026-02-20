@@ -8,11 +8,7 @@ import java.util.List;
 public interface EnemyComponentFactory {
 
     String getElement();
-
-
     String createAIBehavior();
-
-
     List<Ability> createAbilities();
     LootTable createLootTable();
 }

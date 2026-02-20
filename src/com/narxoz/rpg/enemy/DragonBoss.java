@@ -16,33 +16,33 @@ public class DragonBoss implements Enemy {
     private int damage;
     private int defense;
     private int speed;
-
-
     private String element;
 
-
     List<Ability> abilities;
-
-
     Map<Integer, Integer> phases;
-
-
     LootTable lootTable;
 
 
     private String aiBehavior;
-
-
     private boolean canFly;
     private boolean hasBreathAttack;
     private int wingspan;
 
-    public DragonBoss(String name, int health, int damage, int defense,
-                      int speed, String element,
+    public DragonBoss(String name,
+                      int health,
+                      int damage,
+                      int defense,
+                      int speed,
+                      String element,
                       List<Ability> abilities,
-                      int phase1Threshold, int phase2Threshold, int phase3Threshold,
-                      LootTable lootTable, String aiBehavior,
-                      boolean canFly, boolean hasBreathAttack, int wingspan) {
+                      int phase1Threshold,
+                      int phase2Threshold,
+                      int phase3Threshold,
+                      LootTable lootTable,
+                      String aiBehavior,
+                      boolean canFly,
+                      boolean hasBreathAttack,
+                      int wingspan) {
 
         this.name = name;
         this.health = health;
@@ -71,39 +71,27 @@ public class DragonBoss implements Enemy {
     @Override public String getName() {
         return name;
     }
-
     @Override public int getHealth() {
         return health;
     }
-
     @Override public int getDamage() {
         return damage;
     }
-
     @Override public int getDefense() {
         return defense;
     }
-
     @Override public int getSpeed() {
         return speed;
     }
-
-
-
     @Override public String getElement() {
         return element;
     }
-
     @Override public String getAIBehavior() {
         return aiBehavior;
     }
-
-
-
     @Override public List<Ability> getAbilities() {
         return List.copyOf(abilities);
     }
-
     @Override public LootTable getLootTable() {
         return lootTable;
     }
